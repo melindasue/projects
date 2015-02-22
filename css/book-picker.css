@@ -1,3 +1,22 @@
-h1 {
-	color:pink;
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#book-picker-container {
+	width:760px;
+	margin:0px auto;
+}
+
+#book-result {
+	font-size: 32px;
+}
+
+#select-book {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#book-button {
+	display: block;
+	font-size: 14px;
 }

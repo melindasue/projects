@@ -6,15 +6,18 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
 	</head>
 	<body>
-		
-		<p>Select which type of book you're after and click the buton to get a randomly selected one.</p>
-		<p id="book-result"></p>
+		<div id="book-picker-container">
+			<p id="intro">Select which type of book you're after in the drop-down below, and click the buton to get a randomly selected book. Click the button again for a new random selection.</p>
+			
+			<p id="book-result"></p>
+			
 			<select id="select-book">
 				<option id="cookbooks-option">Cookbooks</option>
 				<option id="kids-books-option">Children's Books</option>
 			</select>
-			<br/>
-		<button id="book-button">Click to pick random book from your shelf</button>
+			
+			<button id="book-button">Click to pick random book from your shelf</button>
+		</div>
 
 		<script type="text/javascript" src="js/book-picker.js"></script>
 	</body>
