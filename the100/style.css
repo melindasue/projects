@@ -1,0 +1,69 @@
+
+body {
+    background:black;
+    width:90%;
+    margin:40px auto;
+    text-align:justify;
+}
+
+header {
+    color:white;
+    font-size:25px;
+    font-family: 'champagne__limousinesregular';
+    letter-spacing:1px;
+    margin-left:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid;
+}
+
+#share, #share a {
+    text-align:right;
+    font-size:20px;
+    color:#cccccc;
+    text-decoration:none;
+}
+
+#thelist a {
+    color:#cccccc;
+    margin:20px 20px;
+    font-size:40px;
+    text-decoration:none;
+    text-transform:uppercase;
+    line-height:150%;
+    white-space:nowrap;
+}
+
+#the100 {
+    font-size:50px;
+    text-transform:uppercase;
+    padding-right:10px;
+}
+
+#thelist {
+    margin-top:50px;
+}
+
+a {
+    color:white;
+}
+
+#thelist a:hover {
+    color:white;
+}
+
+.crossout {
+    text-decoration:line-through;
+}
+
+footer {
+    text-align:center;
+    padding-top:50px;
+}
+
+footer a {
+    color:white;
+    text-decoration:none;
+    text-transform:lowercase;
+    font-size:20px;
+    letter-spacing:1px;
+}
